@@ -5,7 +5,7 @@ import scrapy
 class ToScrapeCSSSpider(scrapy.Spider):
     name = "toscrape-css"
     start_urls = [
-        'https://www.doralkia.com/searchnew.aspx?pn=50',
+        'https://www.doralkia.com/searchnew.aspx',
     ]
 
     def parse(self, response):
