@@ -3,7 +3,7 @@ import scrapy
 
 
 class ToScrapeCSSSpider(scrapy.Spider):
-name = "www.doralkia.com"
+    name = "www.doralkia.com"
     allowed_domains = ['www.doralkia.com']
     start_urls = ['https://www.doralkia.com/searchnew.aspx']
     rules = [
